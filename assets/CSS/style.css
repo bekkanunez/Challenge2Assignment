@@ -19,19 +19,19 @@ header h1 {
     display: inline-block;
 }
 
-header div {
+header nav {
      float: right;
 
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
     padding-top: 50px;
     font-size: 25px;
     margin-bottom: 100px;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
 }
 
@@ -55,33 +55,173 @@ section {
 section h2 {
     float: right;
     margin-right: 65px;
-    margin-top: 200px;
+    margin-top: 100px;
     padding-bottom: 12px;
     font-size: 35px;
     font-family: 'Times New Roman', 'Times', 'serif';
-    color: darkred; 
-}
-.about-me {
-
-}
-
-.about-me-img{
-
+    color: darkred;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: darkred;
 }
 
-.work-me{
-
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
 }
 
-.work-me-img{
-
-}
-
-.contact-me{
-
-}
-
-
-.contact-me-img{
+aside {
+    background-color: blanchedalmond;
+    padding: 10px;
+    text-align: right;
+    text-decoration: underline;
     
+}
+aside h1 {
+    box-sizing: border-box;
+    width: 250px;
+    height: 100px;
+    padding-bottom: 200px;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+aside h2 {
+    box-sizing: border-box;
+    width: 250px;
+    height: 100px;
+    padding-bottom: 200px;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+aside h3 {
+    box-sizing: border-box;
+    width: 250px;
+    height: 100px;
+    padding-right: 10px;
+    font-size: 25px;
+    position: relative;
+    top: 800px;
+
+}
+
+.works{
+    flex: 4;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
+.about-me {
+    font-size: 25px;
+    color: darkred;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    border-left: solid;
+    border-color: darkred;
+    border-width: 3px;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 125px;
+}
+.art{
+    border-left: solid;
+    border-color: darkred;
+    border-width: 3px;
+    padding-left: 10px;
+    padding-top: -50px;
+    margin-left: -190px;
+    margin-top: 75px;
+    /* background-color: brown; */
+}
+
+.art img{
+    width: 100%;
+    height: 400px;
+    object-position: center;
+    margin-left: 50px;
+}
+
+.art1{
+    padding: 10px;
+    flex: 0 0 400px;
+}
+
+.art1 p{
+    position: relative;
+    right: 45px;
+}
+
+.art1 img{
+    padding-top: 15px;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    right: 45px;
+    image-resolution: 300dpi;
+}
+
+.art2 {
+    padding: 10px;
+    flex: 0 0 400px; 
+}
+
+.art2 p{
+    position: relative;
+    left: 30px;
+}
+
+.art2 img{
+    padding-top: 15px;
+    width: 100%;
+    height: 150px;
+    image-resolution: 300dpi;
+    position: relative;
+    left: 30px;
+}
+
+.contact-me {
+    color: darkred;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    border-left: solid;
+    border-color: darkred;
+    border-width: 3px;
+    padding-right: 750px;
+    padding-top: 20px;
+    height: 200px;
+}
+
+.contact-me p{
+    font-size: 35px;
+    float: center; 
+}
+
+.contact-me p ul{
+    list-style-type: none;
+}
+
+.contact-me p ul li{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    font-size: 25px;
+    color: darkred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: blanchedalmond;
+    padding-top: 400px;
+
+}
+
+a:hover {
+    box-shadow: inset;
+    color: red;
+
 }
