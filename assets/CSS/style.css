@@ -8,9 +8,10 @@ body {
 }
 
 header {
-    color: rebeccapurple;
+    color: darkred;
     font-size: 40px;
     font-family: fantasy;
+    padding-bottom: 20px;
 
 }    
 
@@ -35,21 +36,52 @@ header div ul li {
 }
 
 a {
-    color: purple;
+    color: darkred;
     display: block;
     padding: 6px
 
 }
 
 section {
-    color: whitesmoke;
-    background-color: rebeccapurple;
     height: 100px;
-    width: 1300px;    
-    font-size: 30px
+    width: 100%;
+    padding: 20px;
+    background-image: url("../BFS\ Stickers.png");
+    background-size: cover;
+    background-position: top;
+
 }
 
 section h2 {
     float: right;
-    margin-right: -400px;
+    margin-right: 65px;
+    margin-top: 200px;
+    padding-bottom: 12px;
+    font-size: 35px;
+    font-family: 'Times New Roman', 'Times', 'serif';
+    color: darkred; 
+}
+.about-me {
+
+}
+
+.about-me-img{
+
+}
+
+.work-me{
+
+}
+
+.work-me-img{
+
+}
+
+.contact-me{
+
+}
+
+
+.contact-me-img{
+    
 }
