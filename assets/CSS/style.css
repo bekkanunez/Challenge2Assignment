@@ -192,7 +192,7 @@ aside h3 {
     left: 30px;
 }
 
-.contact-me {
+nav2 {
     color: darkred;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
@@ -200,22 +200,13 @@ aside h3 {
     border-color: darkred;
     border-width: 3px;
     padding-right: 750px;
-    padding-top: 20px;
+    padding-top: 10px;
     height: 200px;
 }
 
-.contact-me p{
-    font-size: 35px;
-    float: center; 
-}
-
-.contact-me p ul{
+nav2 ul{ 
     list-style-type: none;
-}
-
-.contact-me p ul li{
-    display: flex;
-    flex-wrap: wrap;
+    display: inline;
 }
 
 footer{
