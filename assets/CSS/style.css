@@ -139,6 +139,14 @@ aside h3 {
     /* background-color: brown; */
 }
 
+ .art1 p{
+    font-weight: bold;
+ }
+
+ .art2 p{
+    font-weight: bold;
+ }
+
 .art img{
     width: 100%;
     height: 400px;
